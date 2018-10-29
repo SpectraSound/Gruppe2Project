@@ -6,7 +6,17 @@ namespace Gruppe2Project
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string input = Console.ReadLine();
+
+            switch (input)
+            {
+                case "Showall":
+                    break;
+                case "Quit":
+                    break;
+                default:
+                    break;
+            }
         }
     }
 }
