@@ -7,15 +7,20 @@ namespace Gruppe2Project
         static void Main(string[] args)
         {
             string input = Console.ReadLine();
+            bool running = true;
 
-            switch (input)
+            while (running)
             {
-                case "Showall":
-                    break;
-                case "Quit":
-                    break;
-                default:
-                    break;
+                switch (input)
+                {
+                    case "Showall":
+                        break;
+                    case "Quit":
+                        running = false;
+                        break;
+                    default:
+                        break;
+                }
             }
         }
     }
