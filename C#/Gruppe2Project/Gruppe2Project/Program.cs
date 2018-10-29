@@ -6,6 +6,8 @@ namespace Gruppe2Project
     {
         static void Main(string[] args)
         {
+            Functions f = new Functions();
+
             string input = Console.ReadLine();
             bool running = true;
 
@@ -14,6 +16,7 @@ namespace Gruppe2Project
                 switch (input)
                 {
                     case "Showall":
+                        f.ShowAll();
                         break;
                     case "Quit":
                         running = false;
