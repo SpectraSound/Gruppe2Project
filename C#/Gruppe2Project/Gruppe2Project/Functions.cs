@@ -17,6 +17,8 @@ namespace Gruppe2Project
 
             while (running)
             {
+                Console.WriteLine("Write your command here:");
+
                 string input = Console.ReadLine();
 
                 switch (input)
@@ -36,13 +38,16 @@ namespace Gruppe2Project
 
         public void ShowAll(string path)
         {
+            Console.Clear();
             string fileContent = File.ReadAllText(path);
             Console.WriteLine(File.ReadAllText(path));
+            Console.WriteLine();
         }
 
         public void WriteText(string path, string input)
         {
             File.AppendAllText(path, input);
+            Console.WriteLine();
         }
     }
 }
