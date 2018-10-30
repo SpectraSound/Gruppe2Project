@@ -20,3 +20,14 @@ C:/Users/Bruger/Desktop/Gruppe2Project/C#/Gruppe2Project/Gruppe2Project/obj/Debu
 /Users/elev/Documents/Gruppe2Project/C#/Gruppe2Project/Gruppe2Project/obj/Debug/netcoreapp2.1/Gruppe2Project.AssemblyInfo.cs
 /Users/elev/Documents/Gruppe2Project/C#/Gruppe2Project/Gruppe2Project/obj/Debug/netcoreapp2.1/Gruppe2Project.dll
 /Users/elev/Documents/Gruppe2Project/C#/Gruppe2Project/Gruppe2Project/obj/Debug/netcoreapp2.1/Gruppe2Project.pdb
+/Users/elev/Desktop/Gruppe2Project/C#/Gruppe2Project/Gruppe2Project/bin/Debug/netcoreapp2.1/Gruppe2Project.deps.json
+/Users/elev/Desktop/Gruppe2Project/C#/Gruppe2Project/Gruppe2Project/bin/Debug/netcoreapp2.1/Gruppe2Project.runtimeconfig.json
+/Users/elev/Desktop/Gruppe2Project/C#/Gruppe2Project/Gruppe2Project/bin/Debug/netcoreapp2.1/Gruppe2Project.runtimeconfig.dev.json
+/Users/elev/Desktop/Gruppe2Project/C#/Gruppe2Project/Gruppe2Project/bin/Debug/netcoreapp2.1/Gruppe2Project.dll
+/Users/elev/Desktop/Gruppe2Project/C#/Gruppe2Project/Gruppe2Project/bin/Debug/netcoreapp2.1/Gruppe2Project.pdb
+/Users/elev/Desktop/Gruppe2Project/C#/Gruppe2Project/Gruppe2Project/obj/Debug/netcoreapp2.1/Gruppe2Project.csprojAssemblyReference.cache
+/Users/elev/Desktop/Gruppe2Project/C#/Gruppe2Project/Gruppe2Project/obj/Debug/netcoreapp2.1/Gruppe2Project.csproj.CoreCompileInputs.cache
+/Users/elev/Desktop/Gruppe2Project/C#/Gruppe2Project/Gruppe2Project/obj/Debug/netcoreapp2.1/Gruppe2Project.AssemblyInfoInputs.cache
+/Users/elev/Desktop/Gruppe2Project/C#/Gruppe2Project/Gruppe2Project/obj/Debug/netcoreapp2.1/Gruppe2Project.AssemblyInfo.cs
+/Users/elev/Desktop/Gruppe2Project/C#/Gruppe2Project/Gruppe2Project/obj/Debug/netcoreapp2.1/Gruppe2Project.dll
+/Users/elev/Desktop/Gruppe2Project/C#/Gruppe2Project/Gruppe2Project/obj/Debug/netcoreapp2.1/Gruppe2Project.pdb
