@@ -8,10 +8,41 @@ namespace Gruppe2Project
 {
     class Functions
     {
-        /*public void ShowAll(string /Filsti navn/)
+        string path = @"C:/Users/Bruger/Desktop/Gruppe2Project/MyText.txt";
+        bool running = true;
+
+        public void FileCall(string foo)
         {
-            string fileContent = File.ReadAllText(/Filsti navn/);
-            Console.WriteLine(File.ReadAllText(/Filsti navn/));
-        }*/
+            Functions f = new Functions();
+
+            while (running)
+            {
+                string input = Console.ReadLine();
+
+                switch (input)
+                {
+                    case "Showall":
+                        f.ShowAll(foo);
+                        break;
+                    case "Quit":
+                        running = false;
+                        break;
+                    default:
+                        f.WriteText(foo, input);
+                        break;
+                }
+            }
+        }
+
+        public void ShowAll(string path)
+        {
+            string fileContent = File.ReadAllText(path);
+            Console.WriteLine(File.ReadAllText(path));
+        }
+
+        public void WriteText(string path, string input)
+        {
+            File.AppendAllText(path, input);
+        }
     }
 }
