@@ -8,25 +8,36 @@
 <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet"> 
 </head>
 <body class="body">
-    <!--header begynder her-->
+    <!-- Header begynder her -->
     <header class="header">
         <div class="intro">
             <h1>Velkommen til min tekst</h1>
         </div>
     </header>
-    <!--main begynder her-->
+    <!-- Main begynder her -->
     <main>
-    <div> <!--det her bliver en tekstbox til forklaring af vores projekt-->
+    <div> <!-- Det her bliver en tekstbox til forklaring af vores projekt -->
 
     </div>
-    <iframe> <!--det er her vores txt-fil skal være -->
+    <iframe> <!-- Det er her vores txt-fil skal være -->
         <label class="main"> test txt </label>
     </iframe>
         
     </main>
-    <!--footer begynder her -->
+    <!-- Footer begynder her -->
     <footer>
 
     </footer>
+    <!-- Henter text fra fil -->
+    <script type="text/JavaScript">
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                document.getElementById('textFromFile').innerHTML = xhr.responseText;
+            }
+        }
+        xhr.open('GET', '../MyText.txt');
+        xhr.send();   
+    </script>
 </body>
 </html> 
