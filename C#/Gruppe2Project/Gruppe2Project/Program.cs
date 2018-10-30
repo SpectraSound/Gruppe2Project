@@ -2,29 +2,26 @@
 
 namespace Gruppe2Project
 {
-    class Program
+    public class Program
     {
+        public string path;
+
         static void Main(string[] args)
+        {
+            Program p = new Program();
+            p.Start();
+        }
+
+        public void Start()
         {
             Functions f = new Functions();
 
-            string input = Console.ReadLine();
-            bool running = true;
+            string Choice = Console.ReadLine();
 
-            while (running)
+            if (Choice == "MyText") // Choose File (if multiple)
             {
-                switch (input)
-                {
-                    case "Showall":
-                        f.ShowAll();
-                        break;
-                    case "Quit":
-                        running = false;
-                        break;
-                    default:
-                        f.WriteText();
-                        break;
-                }
+                path = @"C:/Users/Bruger/Desktop/Gruppe2Project/MyText.txt";
+                f.FileCall(path);
             }
         }
     }
