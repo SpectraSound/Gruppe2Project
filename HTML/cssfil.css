@@ -38,7 +38,7 @@ img{
     padding-left: 2vw;
     font-size: 3vh; 
 }
-iframe{
+.boxToText{
     border: 1vh solid rgb(66, 134, 244);
     display: inline-block;
     overflow-y: scroll;
