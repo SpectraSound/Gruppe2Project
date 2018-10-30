@@ -8,10 +8,10 @@ namespace Gruppe2Project
 {
     class Functions
     {
-        public void ShowAll(string /*Filsti navn*/)
+        /*public void ShowAll(string /Filsti navn/)
         {
-            string fileContent = File.ReadAllText(/*Filsti*/);
-            Console.WriteLine(File.ReadAllText(/*Filsti*/));
-        }
+            string fileContent = File.ReadAllText(/Filsti navn/);
+            Console.WriteLine(File.ReadAllText(/Filsti navn/));
+        }*/
     }
 }
