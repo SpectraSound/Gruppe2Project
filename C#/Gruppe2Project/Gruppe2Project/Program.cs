@@ -22,6 +22,7 @@ namespace Gruppe2Project
                         running = false;
                         break;
                     default:
+                        f.WriteText();
                         break;
                 }
             }
