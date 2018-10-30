@@ -1,4 +1,21 @@
-.main {
-    background-color: darkgray;
-    color: red;
+.body {
+    margin: 0vw; 
+    background-color: rgb(211, 211, 211);
+    padding: 0%;
+}
+.header {
+    background-color: black;
+    width: 100vw;
+    height: 15vh;
+    top: 0vh;
+    padding: 0;
+}
+h1{
+    color: white;
+    margin-top: 0vh;
+    font-size: 9vh;
+}
+.intro{
+    padding-top: 2vh;
+    padding-left: 2vw;
 }
