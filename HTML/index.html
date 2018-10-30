@@ -9,14 +9,14 @@
 <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet"> 
 </head>
 <body class="body">
-    <!--header begynder her-->
+    <!-- Header begynder her -->
     <header class="header">
         <div class="intro">
             <h1>Velkommen til min tekst</h1>
             <img src="billeder/Blue_Planet_Funny_Face.png" alt="face">
         </div>
     </header>
-    <!--main begynder her-->
+    <!-- Main begynder her -->
     <main>
     <div class="info"> <!--det her bliver en tekstbox til forklaring af vores projekt-->
         <p>Vi vil lave en konsol applikation der kan skrive til en tekstfil (gemme, ændre og redigere i filen løbende)<br><br>
@@ -24,14 +24,25 @@
             dvs. at der skal ligge en tekstfil som vores konsol applikation skal skrive til.
         </p>
     </div>
-    <iframe> <!--det er her vores txt-fil skal være -->
-        <label class="main"> test txt </label>
+    <iframe> <!-- Det er her vores txt-fil skal være -->
+        <label id="textFromFile" class="main"> test txt </label>
     </iframe>
         
     </main>
-    <!--footer begynder her -->
+    <!-- Footer begynder her -->
     <footer>
 
     </footer>
+    <!-- Henter text fra fil -->
+    <script type="text/JavaScript">
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                document.getElementById('textFromFile').innerHTML = xhr.responseText;
+            }
+        }
+        xhr.open('GET', '../MyText.txt');
+        xhr.send();   
+    </script>
 </body>
 </html> 
