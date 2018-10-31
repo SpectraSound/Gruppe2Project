@@ -25,7 +25,7 @@
         </p>
     </div>
     <!-- Det er her vores txt-fil skal være -->
-    <label id="textFromFile"></label> 
+    <p id="textFromFile"></p> 
         
     </main>
     <!-- Footer begynder her -->
@@ -43,7 +43,7 @@
                     document.getElementById('textFromFile').innerHTML = xhr.responseText; 
                 } 
             } 
-            xhr.open('GET', '../MyText.txt'); 
+            xhr.open('GET', 'MyText.txt'); 
             xhr.send();
             setTimeout(GetTextFromFile, 5000);
         }
