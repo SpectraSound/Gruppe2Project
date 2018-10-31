@@ -681,28 +681,30 @@
     ]
   },
   "packageFolders": {
-    "/Users/elev/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\Bruger\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/elev/Documents/Gruppe2Project/C#/Gruppe2Project/Gruppe2Project/Gruppe2Project.csproj",
+      "projectUniqueName": "C:\\Users\\Bruger\\Desktop\\Gruppe2Project\\C#\\Gruppe2Project\\Gruppe2Project\\Gruppe2Project.csproj",
       "projectName": "Gruppe2Project",
-      "projectPath": "/Users/elev/Documents/Gruppe2Project/C#/Gruppe2Project/Gruppe2Project/Gruppe2Project.csproj",
-      "packagesPath": "/Users/elev/.nuget/packages/",
-      "outputPath": "/Users/elev/Documents/Gruppe2Project/C#/Gruppe2Project/Gruppe2Project/obj",
+      "projectPath": "C:\\Users\\Bruger\\Desktop\\Gruppe2Project\\C#\\Gruppe2Project\\Gruppe2Project\\Gruppe2Project.csproj",
+      "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bruger\\Desktop\\Gruppe2Project\\C#\\Gruppe2Project\\Gruppe2Project\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/elev/.config/NuGet/NuGet.Config"
+        "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -720,9 +722,8 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
-            "version": "2.1.0",
+            "version": "[2.1.0, )",
             "autoReferenced": true
           }
         },
