@@ -52,5 +52,11 @@ namespace Gruppe2Project
             File.AppendAllText(path, input);
             Console.WriteLine();
         }
+
+        public string GetCurrentPath()
+        {
+            string newPath = Path.GetRelativePath(Environment.CurrentDirectory,@"MyText.txt");
+            return newPath;
+        }
     }
 }
