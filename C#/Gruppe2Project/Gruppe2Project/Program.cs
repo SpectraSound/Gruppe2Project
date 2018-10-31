@@ -26,7 +26,7 @@ namespace Gruppe2Project
                 Thread.Sleep(2000);
                 Console.Clear();
 
-                path = @"/..MyText.txt";
+                path = f.GetCurrentPath();
                 f.FileCall(path);
             }
         }
