@@ -1,9 +1,9 @@
-﻿<Properties StartupConfiguration="{E656863E-8B7C-4BF2-B369-6D27BE5240DF}|Default">
+<Properties StartupConfiguration="{E656863E-8B7C-4BF2-B369-6D27BE5240DF}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Gruppe2Project/Program.cs">
     <Files>
-      <File FileName="Gruppe2Project/Program.cs" Line="24" Column="23" />
       <File FileName="Gruppe2Project/Gruppe2Class.cs" Line="1" Column="1" />
-      <File FileName="Gruppe2Project/Functions.cs" Line="1" Column="1" />
+      <File FileName="Gruppe2Project/Functions.cs" Line="11" Column="9" />
+      <File FileName="Gruppe2Project/Program.cs" Line="13" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
