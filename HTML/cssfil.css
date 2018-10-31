@@ -28,19 +28,29 @@ img{
 }
 .info{
     width: 30vw;
-    height: 60vh;
+    height: 40vh;
     display: inline-block; 
     position: fixed;
-    margin-left: 5vw;
+    margin-left: 4vw;
     margin-top: 10vh;
     padding: 1vh;
     padding-left: 2vw;
 }
 #textFromFile{
     display: inline-block;
-    width: 50vw;
+    width: 55vw;
     height: 61vh;
     margin-top: 10vh;
     margin-right: 5vw;
     float: right;
+<<<<<<< HEAD
+    background-color: white;
+    font-size: 5vh;
+}
+iframe{
+    margin-top: 1vh;
+    width: 55vw;
+    height: 54vh;
+=======
+>>>>>>> master
 }

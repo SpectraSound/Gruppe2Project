@@ -25,6 +25,22 @@
         </p>
     </div>
     <!-- Det er her vores txt-fil skal være -->
+<<<<<<< HEAD
+    <div class="boxToText" onclick="load">
+        <label style="margin-left: 1vw; font-weight: 700;"> Vores tekst</label><br>
+        <iframe src="../MyText.txt" frameborder="0"></iframe>
+    </div>
+        
+    </main>
+    <!-- Henter text fra fil -->
+    <script type="text/JavaScript">
+    function load() {
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                document.getElementById('textFromFile').innerHTML = xhr.responseText;
+            }
+=======
     <label id="textFromFile"> test txt </label> 
         
     </main>
@@ -46,6 +62,7 @@
             xhr.open('GET', '../MyText.txt'); 
             xhr.send();
             setTimeout(GetTextFromFile, 5000);
+>>>>>>> master
         }
     </script>
 </body>
