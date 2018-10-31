@@ -8,10 +8,10 @@ namespace Gruppe2Project
 {
     class Functions
     {
-        string path = @"/..MyText.txt";
+        
         bool running = true;
 
-        public void FileCall(string foo)
+        public void FileCall(string path)
         {
             Functions f = new Functions();
 
@@ -24,7 +24,7 @@ namespace Gruppe2Project
                 switch (input)
                 {
                     case "Showall":
-                        f.ShowAll(foo);
+                        f.ShowAll(path);
                         break;
                     case "Quit":
                         running = false;
@@ -33,7 +33,7 @@ namespace Gruppe2Project
                         File.WriteAllText(path, "");
                         break;
                     default:
-                        f.WriteText(foo, input);
+                        f.WriteText(path, input);
                         break;
                 }
             }
@@ -55,7 +55,7 @@ namespace Gruppe2Project
 
         public string GetCurrentPath()
         {
-            string newPath = Path.GetRelativePath(Environment.CurrentDirectory,@"MyText.txt");
+            string newPath = Path.GetRelativePath(Environment.CurrentDirectory, @"MyText.txt");
             return newPath;
         }
     }

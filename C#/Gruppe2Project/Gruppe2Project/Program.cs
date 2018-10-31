@@ -34,9 +34,7 @@ namespace Gruppe2Project
                 Thread.Sleep(2000);
                 Console.Clear();
 
-
                 path = f.GetCurrentPath();
-
                 f.FileCall(path);
             }
         }
