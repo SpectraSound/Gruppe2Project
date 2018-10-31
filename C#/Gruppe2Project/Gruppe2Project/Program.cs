@@ -35,7 +35,7 @@ namespace Gruppe2Project
                 Console.Clear();
 
                 path = f.GetCurrentPath();
-                f.FileCall(path);
+                f.FileCall(path); // Calls the switch in the other class.
             }
         }
     }
