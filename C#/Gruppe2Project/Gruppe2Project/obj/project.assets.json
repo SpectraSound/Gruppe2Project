@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/elev/Desktop/Gruppe2Project/C#/Gruppe2Project/Gruppe2Project/Gruppe2Project.csproj",
+      "projectUniqueName": "/Users/elev/Documents/Gruppe2Project/C#/Gruppe2Project/Gruppe2Project/Gruppe2Project.csproj",
       "projectName": "Gruppe2Project",
-      "projectPath": "/Users/elev/Desktop/Gruppe2Project/C#/Gruppe2Project/Gruppe2Project/Gruppe2Project.csproj",
+      "projectPath": "/Users/elev/Documents/Gruppe2Project/C#/Gruppe2Project/Gruppe2Project/Gruppe2Project.csproj",
       "packagesPath": "/Users/elev/.nuget/packages/",
-      "outputPath": "/Users/elev/Desktop/Gruppe2Project/C#/Gruppe2Project/Gruppe2Project/obj",
+      "outputPath": "/Users/elev/Documents/Gruppe2Project/C#/Gruppe2Project/Gruppe2Project/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

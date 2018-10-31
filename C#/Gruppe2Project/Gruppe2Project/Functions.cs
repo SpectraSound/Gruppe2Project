@@ -47,7 +47,7 @@ namespace Gruppe2Project
 
         public string GetCurrentPath()
         {
-            string newPath = Path.GetRelativePath(Environment.CurrentDirectory,@"\MyText.txt");
+            string newPath = Path.GetRelativePath(Environment.CurrentDirectory,@"MyText.txt");
             return newPath;
         }
     }

@@ -19,8 +19,10 @@ namespace Gruppe2Project
             Functions f = new Functions();
 
             Console.WriteLine(f.GetCurrentPath());
+            //gets user input
             string Choice = Console.ReadLine();
 
+            //if the user input is the same as "MyText" it wil get the current path of the file
             if (Choice == "MyText") // Choose File (if multiple)
             {
                 path = f.GetCurrentPath();
