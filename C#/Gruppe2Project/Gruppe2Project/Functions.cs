@@ -8,7 +8,7 @@ namespace Gruppe2Project
 {
     class Functions
     {
-        string path = @"C:/Users/Bruger/Desktop/Gruppe2Project/MyText.txt";
+        string path = @"/..MyText.txt";
         bool running = true;
 
         public void FileCall(string foo)
@@ -28,6 +28,9 @@ namespace Gruppe2Project
                         break;
                     case "Quit":
                         running = false;
+                        break;
+                    case "Clear":
+                        File.WriteAllText(path, "");
                         break;
                     default:
                         f.WriteText(foo, input);

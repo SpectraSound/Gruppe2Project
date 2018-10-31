@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Threading;
 
 namespace Gruppe2Project
@@ -26,7 +26,7 @@ namespace Gruppe2Project
                 Thread.Sleep(2000);
                 Console.Clear();
 
-                path = @"C:/Users/Bruger/Desktop/Gruppe2Project/MyText.txt";
+                path = @"/..MyText.txt";
                 f.FileCall(path);
             }
         }
