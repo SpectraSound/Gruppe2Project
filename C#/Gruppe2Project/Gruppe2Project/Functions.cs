@@ -7,7 +7,7 @@ using System.IO;
 namespace Gruppe2Project
 {
     class Functions
-    {       
+    {
         bool running = true;
 
         public void FileCall(string path)
@@ -56,7 +56,7 @@ namespace Gruppe2Project
         // This function calls the path to the file so it can read it.
         public string GetCurrentPath()
         {
-            string newPath = Path.GetRelativePath(Environment.CurrentDirectory, @"MyText.txt");
+            string newPath = Path.Combine(Environment.CurrentDirectory, @"MyText.txt");
             return newPath;
         }
     }

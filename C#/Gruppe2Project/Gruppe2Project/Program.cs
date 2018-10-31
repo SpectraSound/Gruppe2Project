@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Threading;
 
 namespace Gruppe2Project
@@ -12,7 +12,7 @@ namespace Gruppe2Project
             Program p = new Program();
 
             Console.WriteLine("Type in the name of the file you wanna use.");
-            p.Start();            
+            p.Start();
 
         }
 
@@ -20,8 +20,6 @@ namespace Gruppe2Project
         {
             Functions f = new Functions();
 
-
-            Console.WriteLine(f.GetCurrentPath());
             //gets user input
             string Choice = Console.ReadLine();
 
